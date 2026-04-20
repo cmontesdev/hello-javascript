@@ -19,20 +19,22 @@ console.log(greeting.length)
 // Acceso a caracteres
 
 console.log(greeting[0])
-console.log(greeting[11])
+console.log(greeting[greeting.length - 2])
 
 // Métodos comunes
 
 console.log(greeting.toUpperCase()) // Mayúsculas
 console.log(greeting.toLowerCase()) // Minúsculas
+// El método indexOf devuelve la posición de la primera aparición de una subcadena dentro de la cadena original. 
+// Si la subcadena no se encuentra, devuelve -1.
 console.log(greeting.indexOf("Hola")) // Índice
 console.log(greeting.indexOf("Brais"))
 console.log(greeting.indexOf("MoureDev"))
-console.log(greeting.includes("Hola")) // Incluye
+console.log(greeting.includes("Hola")) // Incluye la subcadena
 console.log(greeting.includes("Brais"))
 console.log(greeting.includes("MoureDev"))
 console.log(greeting.slice(0, 10)) // Sección
-console.log(greeting.replace("Brais", "MoureDev")) // Reemplazo
+console.log(greeting.replace("Brais", "MoureDev")) // Reemplaza una subcadena por otra
 
 // Template literals (plantillas literales)
 
