@@ -89,9 +89,9 @@ for (let counter = 2; counter < 10; counter++){
 const arr = [34, 1, 76, 9, 3]
 
 let filtered = []
-for(let i = 0; i < arr.length; i++){
-    if (arr[i] > 10) {
-        filtered.push(arr[i])
+for(const element of arr){
+    if (element > 10) {
+        filtered.push(element)
     }
 }
 console.log(`\n\nThe numbers grater than 10 in ${arr} are ${filtered}`) 
