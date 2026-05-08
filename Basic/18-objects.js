@@ -93,10 +93,10 @@ let person4 = {
 console.log(person)
 console.log(person4)
 
-console.log(person == person4)
-console.log(person === person4)
+console.log(person == person4) // false, porque compara referencias en memoria, no el contenido de los objetos
+console.log(person === person4) //false porque compara referencias en memoria, no el contenido de los objetos 
 
-console.log(person.name == person4.name)
+console.log(person.name == person4.name) // true, porque compara el valor de las propiedades name de ambos objetos, que es "Brais Moure" en ambos casos
 
 // Iteración
 
