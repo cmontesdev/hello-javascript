@@ -6,13 +6,11 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=16864
 // Clases
 
 class Person {
-
     constructor(name, age, alias) {
         this.name = name
         this.age = age
         this.alias = alias
     }
-
 }
 
 // Sintaxis
@@ -122,7 +120,7 @@ class GetSetPerson {
 
 }
 
-person6 = new GetSetPerson("Brais", 37, "MoureDev", "IBAN123456789")
+const person6 = new GetSetPerson("Brais", 37, "MoureDev", "IBAN123456789")
 
 console.log(person6)
 console.log(person6.name)

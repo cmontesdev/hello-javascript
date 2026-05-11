@@ -5,7 +5,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=21480
 
 // Módulos externos
 
-const os = require("os")
+const os = require("node:os")
 
 console.log(os.platform())
 console.log(os.arch())
