@@ -54,7 +54,7 @@ myFloat = 2.718
 myStringWithDoubleQuotes = "Goodbye, world!"
 myStringWithSingleQuotes = 'Goodbye, world!'
 myStringWithBackticks = `Goodbye, world!`
-myNull = {}
+myNull = null // null solo puede ser null, no se puede asignar otro valor
 myUndefined = undefined
 mySymbol = Symbol("anotherSymbol")
 
@@ -89,8 +89,8 @@ myConstFloat = 2.718;
 myConstStringWithDoubleQuotes = "Goodbye, world!"; 
 myConstStringWithSingleQuotes = 'Goodbye, world!'; 
 myConstStringWithBackticks = `Goodbye, world!`; 
-myConstNull = {}; 
-myConstUndefined = undefined; 
+myConstNull = {}; */
+myConstUndefined = undefined; /*
 myConstSymbol = Symbol("anotherConstSymbol"); 
 */
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
